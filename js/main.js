@@ -68,10 +68,8 @@ const getMealInput = () => {
             <li>${mealsIngredients.strIngredient3}</li>
             <li>${mealsIngredients.strIngredient4}</li>
             <li>${mealsIngredients.strIngredient5}</li>
-            <li>${mealsIngredients.strIngredient6}</li>
             <li>${mealsIngredients.strIngredient7}</li>
             <li>${mealsIngredients.strIngredient8}</li>
-            <li>${mealsIngredients.strIngredient9}</li>
             <li>${mealsIngredients.strIngredient10}</li>
           </ul>
          
