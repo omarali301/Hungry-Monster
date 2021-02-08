@@ -9,9 +9,9 @@ const getMealInput = () => {
       .then((data) => {
           
         const foodsDiv = document.getElementById("meal-list");
-        let mealsInput = data.meals;
+        let foodsInput = data.meals;
         let foodList = "";
-        mealsInput.forEach((element) => {
+        foodsInput.forEach((element) => {
 
             foodList += ` 
 
