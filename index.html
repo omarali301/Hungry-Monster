@@ -10,28 +10,22 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container text-center">
-    <form class="col-md-6 m-auto py-5">
-        <div class="input-group mb-3">
-            <input id="place" type="text" class="form-control" placeholder="Search your best food">
-            <div class="input-group-append">
-                <button id="submit" type="button" class="btn btn-danger">Search</button>
+
+
+    <div class="container">
+        <form class="col-md-6 m-auto p-5 ">
+          <div class="input-group">
+
+            <input id="input-text" type="text" class="form-control" placeholder="Search your meal" />
+
+            <div class="input-group-add"><button onclick="getMealInput()" type="button" class="btn btn-warning">Search</button>
+
             </div>
-        </div>
-    </form>
-
-   
-
-        <div id="show-item">
-
-
-
-
-
-
-        </div>
-
-
+          </div>
+        </form>
+        <div class="text-center" id="meal-list"></div>
+        <div id="meal-list"></div>
+      </div>
  
 
 
